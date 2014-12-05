@@ -14,9 +14,7 @@
     "git": "https://github.com/anodamobi/ANKeyboardHandler.git",
     "tag": "1.0"
   },
-  "source_files": [
-    "*.{h,m}"
-  ],
+  "source_files": "*.{h,m}",
   "frameworks": [
     "Foundadtion",
     "UIKit"
