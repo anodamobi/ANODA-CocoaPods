@@ -1,0 +1,37 @@
+{
+  "name": "ANCategories",
+  "version": "1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/anodamobi/ANCategories",
+  "authors": {
+    "Oksana Kovalchuk": "oksana@anoda.mobi"
+  },
+  "summary": "Useful categories for iOS development",
+  "source": {
+    "git": "https://github.com/anodamobi/ANCategories.git",
+    "tag": "1.0"
+  },
+  "source_files": [
+    "NSArray/*.{h,m}",
+    "NSDate/*.{h,m}",
+    "UIApplication/*.{h,m}",
+    "UIColor/*.{h,m}",
+    "UIFont/*.{h,m}",
+    "UIViewController/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundadtion",
+    "UIKit"
+  ],
+  "public_header_files": [
+    "NSArray/*.h",
+    "NSDate/*.h",
+    "UIApplication/*.h",
+    "UIColor/*.h",
+    "UIFont/*.h",
+    "UIViewController/*.h"
+  ],
+  "requires_arc": true,
+}

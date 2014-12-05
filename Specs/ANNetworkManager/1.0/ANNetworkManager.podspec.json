@@ -1,0 +1,36 @@
+{
+  "name": "ANNetworkManager",
+  "version": "1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/anodamobi/ANNetworkManager",
+  "authors": {
+    "Oksana Kovalchuk": "oksana@anoda.mobi"
+  },
+  "summary": "Reactive NSURLSession",
+  "source": {
+    "git": "https://github.com/anodamobi/ANNetworkManager.git",
+    "tag": "1.0"
+  },
+  "source_files": [
+    "ANNetworkManager/ActivityManager/*.{h,m}",
+    "ANNetworkManager/Error/*.{h,m}",
+    "ANNetworkManager/Request/*.{h,m}",
+    "ANNetworkManager/SessionManager/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundadtion",
+    "UIKit"
+  ],
+  "public_header_files": [
+    "ANNetworkManager/ActivityManager/*.h",
+    "ANNetworkManager/Error/*.h",
+    "ANNetworkManager/Request/*.h",
+    "ANNetworkManager/SessionManager/*.h"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ReactiveCocoa": []
+  }
+}
