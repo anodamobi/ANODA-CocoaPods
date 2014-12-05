@@ -33,5 +33,5 @@
     "UIFont/*.h",
     "UIViewController/*.h"
   ],
-  "requires_arc": true,
+  "requires_arc": true
 }
