@@ -1,0 +1,35 @@
+{
+  "name": "ANDrawer",
+  "version": "1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/anodamobi/ANDrawer",
+  "authors": {
+    "Oksana Kovalchuk": "oksana@anoda.mobi"
+  },
+  "summary": "AutoKeyboard handler for UIScrollViews",
+  "source": {
+    "git": "https://github.com/anodamobi/ANDrawer.git",
+    "tag": "1.0"
+  },
+  "source_files": "ANDrawer/*.{h,m}",
+  "frameworks": [
+    "Foundadtion",
+    "UIKit"
+  ],
+  "public_header_files": [
+    "ANDrawer/*.h"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ANHelperFunctions": [
+      "~> 1.0"
+    ],
+    "pop": [],
+    "POP+MCAnimate": [
+      "~> 1.1"
+    ],
+    "MSSPopMasonry": []
+  }
+}
