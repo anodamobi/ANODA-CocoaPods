@@ -37,6 +37,9 @@
   "dependencies": {
     "ANHelperFunctions": [
       "~> 1.0"
+    ],
+    "ANKeyboardHandler": [
+      "~> 1.0"
     ]
   }
 }
