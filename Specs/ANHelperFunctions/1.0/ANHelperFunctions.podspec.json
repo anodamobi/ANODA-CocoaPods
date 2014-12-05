@@ -5,7 +5,6 @@
     "type": "MIT"
   },
   "homepage": "https://github.com/anodamobi/ANHelperFunctions",
-  "preserve_paths": "Sources/ed25519/**/*.{c,h}",
   "authors": {
     "Oksana Kovalchuk": "oksana@anoda.mobi"
   },
