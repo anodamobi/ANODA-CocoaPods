@@ -1,0 +1,33 @@
+{
+  "name": "ANStorage",
+  "version": "1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/anodamobi/ANStorage",
+  "authors": {
+    "Oksana Kovalchuk": "oksana@anoda.mobi"
+  },
+  "summary": "Storage component for Table and CollectionView",
+  "source": {
+    "git": "https://github.com/anodamobi/ANStorage.git",
+    "tag": "1.0"
+  },
+  "source_files": [
+    "Core/*.{h,m}",
+    "CoreData/*.{h,m}",
+    "Memory/*.{h,m}",
+    "Utilities/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundadtion",
+    "UIKit"
+  ],
+  "public_header_files": [
+    "Core/*.h",
+    "CoreData/*.h",
+    "Memory/*.h",
+    "Utilities/*.h"
+  ],
+  "requires_arc": true
+}

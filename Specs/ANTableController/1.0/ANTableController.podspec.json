@@ -40,6 +40,9 @@
     ],
     "ANKeyboardHandler": [
       "~> 1.0"
+    ],
+    "ANStorage": [
+      "~> 1.0"
     ]
   }
 }
