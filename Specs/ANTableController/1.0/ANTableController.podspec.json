@@ -18,7 +18,7 @@
     "TableController/Private/*.{h,m}",
     "TableController/Private/CellFactory/*.{h,m}",
     "TableController/Private/KeyboardHandler/*.{h,m}",
-    "TableController/BaseUIClasses/*.{h,m}",
+    "TableController/BaseUIClasses/*.{h,m}"
   ],
   "private_header_files": [
     "TableController/Private/*.h",
