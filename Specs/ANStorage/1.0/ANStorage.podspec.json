@@ -20,7 +20,7 @@
     "Utilities/*.{h,m}"
   ],
   "frameworks": [
-    "Foundadtion",
+    "Foundation",
     "UIKit"
   ],
   "public_header_files": [
