@@ -14,13 +14,11 @@
     "tag": "1.0"
   },
   "source_files": [
-    "TableController",
-    "TableController/Private/CellFactory/*.{h,m}",
-    "TableController/Private/KeyboardHandler/*.{h,m}",
+    "TableController/*.{h,m}",
     "TableController/Private/*.{h,m}",
     "TableController/Private/CellFactory/*.{h,m}",
+    "TableController/Private/ANTableController/*.{h,m}",
     "TableController/Private/DTMemoryStorage/*.{h,m}",
-    "TableController/Private/KeyboardHandler/*.{h,m}",
     "TableController/BaseUIClasses/*.{h,m}"
   ],
   "frameworks": [
@@ -28,8 +26,12 @@
     "UIKit"
   ],
   "public_header_files": [
-    "TableController/BaseUIClasses/*.h",
-    "TableController/*.h"
+    "TableController/*.h",
+    "TableController/Private/*.h",
+    "TableController/Private/CellFactory/*.h",
+    "TableController/Private/ANTableController/*.h",
+    "TableController/Private/DTMemoryStorage/*.h",
+    "TableController/BaseUIClasses/*.h"
   ],
   "requires_arc": true,
   "dependencies": {
