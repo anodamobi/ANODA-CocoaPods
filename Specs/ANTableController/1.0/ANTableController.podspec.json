@@ -14,7 +14,14 @@
     "tag": "1.0"
   },
   "source_files": [
-    "TableController"
+    "TableController",
+    "TableController/Private/CellFactory/*.{h,m}",
+    "TableController/Private/KeyboardHandler/*.{h,m}",
+    "TableController/Private/*.{h,m}",
+    "TableController/Private/CellFactory/*.{h,m}",
+    "TableController/Private/DTMemoryStorage/*.{h,m}",
+    "TableController/Private/KeyboardHandler/*.{h,m}",
+    "TableController/BaseUIClasses/*.{h,m}"
   ],
   "frameworks": [
     "Foundation",
