@@ -29,5 +29,9 @@
     "Memory/*.h",
     "Utilities/*.h"
   ],
-  "requires_arc": true
+  "requires_arc": true,
+  "dependencies": {
+    "ANHelperFunctions": [
+      "~> 1.0"
+    ]
 }
