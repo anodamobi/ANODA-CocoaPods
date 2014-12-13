@@ -32,6 +32,7 @@
     "UIApplication/*.h",
     "UIColor/*.h",
     "UIFont/*.h",
+    "UIImage/*.h",
     "UIViewController/*.h"
   ],
   "requires_arc": true,
