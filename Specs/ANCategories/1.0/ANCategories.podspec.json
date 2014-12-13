@@ -19,6 +19,7 @@
     "UIApplication/*.{h,m}",
     "UIColor/*.{h,m}",
     "UIFont/*.{h,m}",
+    "UIImage/*.{h,m}",
     "UIViewController/*.{h,m}"
   ],
   "frameworks": [
