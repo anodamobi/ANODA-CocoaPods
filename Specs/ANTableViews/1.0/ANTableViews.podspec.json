@@ -1,0 +1,34 @@
+{
+  "name": "ANTableViews",
+  "version": "1.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/anodamobi/ANTableViews",
+  "authors": {
+    "Oksana Kovalchuk": "oksana@anoda.mobi"
+  },
+  "summary": "Base classes for UITableView and related views",
+  "source": {
+    "git": "https://github.com/anodamobi/ANTableViews.git",
+    "tag": "1.0"
+  },
+  "source_files": [
+    "Reusable/*.{h,m}",
+    "TableView/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "public_header_files": [
+    "Reusable/*.h",
+    "TableView/*.h"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ANCategories": [
+      "~> 1.0"
+    ]
+  }
+}
